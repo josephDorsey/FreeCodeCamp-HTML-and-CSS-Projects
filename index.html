@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylsheet" type="text/css" href="style.css">
-    <title>FreeCodeCamp HTML Tutorials</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <h2>CatPhotoApp</h2>
-    <main>
-        <p>Click here to view more <a href="#">cat photos</a></p>
-        <a href="#"><img src=https://bit.ly/fcc-relaxing-cat alt="photo of cat"></a>
-        <br>
-        <div>
-            <p>Things cat love:</p>
-            <ul>
-                <li>milk</li>
-                <li>cheese</li>
-                <li>naps</li>
-            </ul>
-            <p>Top 3 things cats hate:</p>
-            <ol>
-                <li>water</li>
-                <li>dogs</li>
-                <li>flies</li>
-            </ol>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylsheet" type="text/css" href="style.css">
+        <title>FreeCodeCamp HTML Tutorials</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <p>Click here to view more <a href="#">cat photos</a></p>
+            <a href="#"><img src=https://bit.ly/fcc-relaxing-cat alt="photo of cat"></a>
+            <br>
+            <div>
+                <p>Things cat love:</p>
+                <ul>
+                    <li>milk</li>
+                    <li>cheese</li>
+                    <li>naps</li>
+                </ul>
+                <p>Top 3 things cats hate:</p>
+                <ol>
+                    <li>water</li>
+                    <li>dogs</li>
+                    <li>flies</li>
+                </ol>
+            </div>
+            
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <input type="text"required placeholder="cat photo URL">
+                <button type="submit">Submit</button>
+                <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label>
+                <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
+                <label for="loving"><input value="loving" id="loving" type="checkbox" name="personality" checked> Loving</label>
+                <label for="lazy"><input value="lazy" id="caring" type="checkbox" name="personality"> Lazy</label>
+                <label for="energetic"><input value="energetic" id="rude" type="checkbox" name="personality"> Energetic</label>
+            </form>
+            </main>
         
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-            <input type="text"required placeholder="cat photo URL">
-            <button type="submit">Submit</button>
-            <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label>
-            <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
-            <label for="loving"><input value="loving" id="loving" type="checkbox" name="personality" checked> Loving</label>
-            <label for="lazy"><input value="lazy" id="caring" type="checkbox" name="personality"> Lazy</label>
-            <label for="energetic"><input value="energetic" id="rude" type="checkbox" name="personality"> Energetic</label>
-        </form>
-        </main>
-    
-    </body>
+        </body>
 </html>
