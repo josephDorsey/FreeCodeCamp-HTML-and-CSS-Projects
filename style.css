@@ -19,8 +19,8 @@ p {
 	width: 100px;
 }
 
-thick-green-border {
-	border-color: red;
-	border-width: 5px;
+.thick-green-border {
+	border-color: green;
+	border-width: 10px;
 	border-style: solid;
 }
