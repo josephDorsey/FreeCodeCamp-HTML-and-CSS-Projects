@@ -306,3 +306,13 @@ Here, you have two radio inputs. When the user submits the form with the indoor 
 If you omit the value attribute, the submitted form data uses the default value, which is on. In this scenario, if the user clicked the "indoor" option and submitted the form, the resulting form data would be indoor-outdoor=on, which is not useful. So the value attribute needs to be set to something to identify the option.
 
 Give each of the radio and checkbox inputs the value attribute. Use the input label text, in lowercase, as the value for the attribute.
+
+# Basic HTML and HTML5: Check Radio Buttons and Checkboxes by Default
+You can set a checkbox or radio button to be checked by default using the checked attribute.
+
+To do this, just add the word "checked" to the inside of an input element. For example:
+
+<input type="radio" name="test-name" checked>
+
+Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
+
