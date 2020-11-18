@@ -149,3 +149,7 @@ You can specify a border-radius with pixels. Give your cat photo a border-radius
 
 Note: This challenge allows for multiple possible solutions. For example, you may add border-radius to either the .thick-green-border class or the .smaller-image class.
 
+# Basic CSS: Make Circular Images with a border-radius
+In addition to pixels, you can also specify the border-radius using a percentage.
+
+Give your cat photo a border-radius of 50%.
