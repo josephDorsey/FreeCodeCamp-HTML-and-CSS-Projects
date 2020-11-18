@@ -129,3 +129,106 @@ Change your external link to an internal link by changing the href attribute to 
 Remove the target="_blank" attribute from the anchor tag since this causes the linked document to open in a new window tab.
 
 Then add an id attribute with a value of "footer" to the <footer> element at the bottom of the page.
+
+# Basic HTML and HTML5: Nest an Anchor Element within a Paragraph
+You can nest links within other text elements.
+
+<p>
+  Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+</p>
+Let's break down the example: Normal text is wrapped in the p element:
+<p> Here's a ... for you to follow. </p> Next is the anchor element <a> (which requires a closing tag </a>):
+<a> ... </a> target is an anchor tag attribute that specifies where to open the link and the value "_blank" specifies to open the link in a new tab href is an anchor tag attribute that contains the URL address of the link:
+<a href="http://freecodecamp.org"> ... </a> The text, "link to freecodecamp.org", within the a element called anchor text, will display a link to click:
+<a href=" ... ">link to freecodecamp.org</a> The final output of the example will look like this:
+
+Here's a link to freecodecamp.org for you to follow.
+
+Nest the existing a element within a new p element. The new paragraph should have text that says "View more cat photos", where "cat photos" is a link, and the rest is plain text.
+
+# Basic HTML and HTML5: Make Dead Links Using the Hash Symbol
+
+Sometimes you want to add a elements to your website before you know where they will link.
+
+This is also handy when you're changing the behavior of a link using JavaScript, which we'll learn about later.
+
+The current value of the href attribute is a link that points to "https://freecatphotoapp.com". Replace the href attribute value with a #, also known as a hash symbol, to create a dead link.
+
+For example: href="#"
+
+# Basic HTML and HTML5: Turn an Image into a Link
+You can make elements into links by nesting them within an a element.
+
+Nest your image within an a element. Here's an example:
+
+<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
+
+Remember to use # as your a element's href property in order to turn it into a dead link.
+
+Place the existing image element within an a (anchor) element.
+
+Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
+
+# Basic HTML and HTML5: Create a Bulleted Unordered List
+HTML has a special element for creating unordered lists, or bullet point style lists.
+
+Unordered lists start with an opening <ul> element, followed by any number of <li> elements. Finally, unordered lists close with a </ul>
+
+For example:
+
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+would create a bullet point style list of "milk" and "cheese".
+
+Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page.
+
+# Basic HTML and HTML5: Create an Ordered List
+HTML has another special element for creating ordered lists, or numbered lists.
+
+Ordered lists start with an opening <ol> element, followed by any number of <li> elements. Finally, ordered lists are closed with the </ol> tag.
+
+For example:
+
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+would create a numbered list of "Garfield" and "Sylvester".
+
+Create an ordered list of the top 3 things cats hate the most.
+
+# Basic HTML and HTML5: Create a Text Field
+Now let's create a web form.
+
+input elements are a convenient way to get input from your user.
+
+You can create a text input like this:
+
+<input type="text">
+
+Note that input elements are self-closing.
+
+Create an input element of type text below your lists.
+
+# Basic HTML and HTML5: Add Placeholder Text to a Text Field
+Placeholder text is what is displayed in your input element before your user has inputted anything.
+
+You can create placeholder text like so:
+
+<input type="text" placeholder="this is placeholder text">
+
+Note: Remember that input elements are self-closing.
+
+Set the placeholder value of your text input to "cat photo URL".
+
+# Basic HTML and HTML5: Create a Form Element
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
+
+For example:
+
+<form action="/url-where-you-want-to-submit-form-data"></form>
+
+Nest the existing input element inside a form element and assign "https://freecatphotoapp.com/submit-cat-photo" to the action attribute of the form element.
+
