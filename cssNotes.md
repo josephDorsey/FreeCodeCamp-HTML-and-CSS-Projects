@@ -207,3 +207,22 @@ Here, we can see that the blue box and the red box are nested within the yellow 
 When you increase the blue box's padding, it will increase the distance (padding) between the text and the border around it.
 
 Change the padding of your blue box to match that of your red box.
+
+# Basic CSS: Adjust the Margin of an Element
+
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+Here, we can see that the blue box and the red box are nested within the yellow box. Note that the red box has a bigger margin than the blue box, making it appear smaller.
+
+When you increase the blue box's margin, it will increase the distance between its border and surrounding elements.
+
+Change the margin of the blue box to match that of the red box.
+
+# Basic CSS: Add a Negative Margin to an Element
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+If you set an element's margin to a negative value, the element will grow larger.
+
+Try to set the margin to a negative value like the one for the red box.
+
+Change the margin of the blue box to -15px, so it fills the entire horizontal width of the yellow box around it.
