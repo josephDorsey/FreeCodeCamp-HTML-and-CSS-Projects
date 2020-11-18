@@ -153,3 +153,14 @@ Note: This challenge allows for multiple possible solutions. For example, you ma
 In addition to pixels, you can also specify the border-radius using a percentage.
 
 Give your cat photo a border-radius of 50%.
+
+# Basic CSS: Give a Background Color to a div Element
+You can set an element's background color with the background-color property.
+
+For example, if you wanted an element's background color to be green, you'd put this within your style element:
+
+.green-background {
+  background-color: green;
+}
+Create a class called silver-background with the background-color of silver. Assign this class to your div element.
+
