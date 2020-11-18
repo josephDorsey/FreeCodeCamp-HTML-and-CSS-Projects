@@ -53,3 +53,12 @@ Give your h2 element the class attribute with a value of 'red-text'.
 
 # Basic CSS: Style Multiple Elements with a CSS Class
 Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your red-text class to the first p element.
+
+# Basic CSS: Change the Font Size of an Element
+Font size is controlled by the font-size CSS property, like this:
+
+h1 {
+  font-size: 30px;
+}
+Inside the same <style> tag that contains your red-text class, create an entry for p elements and set the font-size to 16 pixels (16px).
+
