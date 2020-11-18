@@ -62,3 +62,12 @@ h1 {
 }
 Inside the same <style> tag that contains your red-text class, create an entry for p elements and set the font-size to 16 pixels (16px).
 
+
+# Basic CSS: Set the Font Family of an Element
+You can set which font an element should use, by using the font-family property.
+
+For example, if you wanted to set your h2 element's font to sans-serif, you would use the following CSS:
+
+h2 {
+  font-family: sans-serif;
+}
