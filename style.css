@@ -18,3 +18,9 @@ p {
 .smaller-image {
 	width: 100px;
 }
+
+thick-green-border {
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
+}
