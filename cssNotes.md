@@ -92,3 +92,22 @@ The GENERIC_NAME is optional, and is a fallback font in case the other specified
 Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.
 
 Import the Lobster font to your web page. Then, use an element selector to set Lobster as the font-family for your h2 element.
+
+# Basic CSS: Specify How Fonts Should Degrade
+There are several default fonts that are available in all browsers. These generic font families include monospace, serif and sans-serif
+
+When one font isn't available, you can tell the browser to "degrade" to another font.
+
+For example, if you wanted an element to use the Helvetica font, but degrade to the sans-serif font when Helvetica isn't available, you will specify it as follows:
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
+
+To begin, apply the monospace font to the h2 element, so that it now has two fonts - Lobster and monospace.
+
+In the last challenge, you imported the Lobster font using the link tag. Now comment out that import of the Lobster font (using the HTML comments you learned before) from Google Fonts so that it isn't available anymore. Notice how your h2 element degrades to the monospace font.
+
+Note: If you have the Lobster font installed on your computer, you won't see the degradation because your browser is able to find the font.
