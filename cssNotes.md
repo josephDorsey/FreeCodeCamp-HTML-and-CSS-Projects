@@ -50,3 +50,6 @@ You can see that we've created a CSS class called blue-text within the <style> t
 Inside your style element, change the h2 selector to .red-text and update the color's value from blue to red.
 
 Give your h2 element the class attribute with a value of 'red-text'.
+
+# Basic CSS: Style Multiple Elements with a CSS Class
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your red-text class to the first p element.
