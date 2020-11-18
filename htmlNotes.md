@@ -71,3 +71,32 @@ Note: Many of the new HTML5 tags and their benefits are covered in the Applied A
 Create a second p element after the existing p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
 
 Then, create a main element and nest the two p elements inside the main element.
+
+# Basic HTML and HTML5: Add Images to Your Website
+You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+
+An example of this would be:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg">
+
+Note that img elements are self-closing.
+
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+Ideally the alt attribute should not contain special characters unless needed.
+
+Let's add an alt attribute to our img example above:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+
+Let's try to add an image to our website:
+
+Within the existing main element, insert an img element before the existing p elements.
+
+Now set the src attribute so that it points to this url:
+
+https://bit.ly/fcc-relaxing-cat
+
+Finally, don't forget to give your img element an alt attribute with applicable text.
