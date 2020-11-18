@@ -226,3 +226,11 @@ If you set an element's margin to a negative value, the element will grow larger
 Try to set the margin to a negative value like the one for the red box.
 
 Change the margin of the blue box to -15px, so it fills the entire horizontal width of the yellow box around it.
+
+# Basic CSS: Add Different Padding to Each Side of an Element
+Sometimes you will want to customize an element so that it has different amounts of padding on each of its sides.
+
+CSS allows you to control the padding of all four individual sides of an element with the padding-top, padding-right, padding-bottom, and padding-left properties.
+
+Give the blue box a padding of 40px on its top and left side, but only 20px on its bottom and right side.
+
