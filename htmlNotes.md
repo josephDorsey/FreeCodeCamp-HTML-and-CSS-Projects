@@ -232,3 +232,44 @@ For example:
 
 Nest the existing input element inside a form element and assign "https://freecatphotoapp.com/submit-cat-photo" to the action attribute of the form element.
 
+# Basic HTML and HTML5: Add a Submit Button to a Form
+Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute.
+
+Here's an example submit button:
+
+<button type="submit">this button submits the form</button>
+
+Add a button as the last element of your form element with a type of submit, and "Submit" as its text.
+
+
+
+# Basic HTML and HTML5: Use HTML5 to Require a Field
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+
+For example, if you wanted to make a text input field required, you can just add the attribute required within your input element, like this: <input type="text" required>
+
+Make your text input a required field, so that your user can't submit the form without completing this field.
+
+Then try to submit the form without inputting any text. See how your HTML5 form notifies you that the field is required?
+
+# Basic HTML and HTML5: Create a Set of Radio Buttons
+You can use radio buttons for questions where you want the user to only give you one answer out of multiple options.
+
+Radio buttons are a type of input.
+
+Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
+
+All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+
+Here's an example of a radio button:
+
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+It is considered best practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the child input element. For example:
+
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+Add a pair of radio buttons to your form, each nested in its own label element. One should have the option of indoor and the other should have the option of outdoor. Both should share the name attribute of indoor-outdoor to create a radio group.
+
