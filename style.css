@@ -1,22 +1,21 @@
 * {
 	box-sizing: border-box;
 }
-
-.red-text {
-	color: red;
+.injected-text {
+	margin-bottom: -25px;
+	text-align: center;
 }
 
-h2 {
-	font-family: Lobster, monospace;
+.box {
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	text-align: center;
 }
 
-p {
-	font-size: 16px;
-	font-family: monospace;
-}
-
-.smaller-image {
-	width: 100px;
+.yellow-box {
+	background-color: yellow;
+	padding: 10px;
 }
 
 [type='checkbox'] {
@@ -30,9 +29,8 @@ p {
 	border-radius: 50%;
 }
 
-#cat-photo-form {
-	background-color: green;
-}
-.silver-background {
-	background-color: silver;
+.blue-box {
+	background-color: blue;
+	color: #fff;
+	margin: 40px 20px 20px 40px;
 }
