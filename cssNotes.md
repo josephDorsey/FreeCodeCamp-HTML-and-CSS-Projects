@@ -191,3 +191,6 @@ Here's an example of how you can take your element with the id attribute of cat-
 Note that inside your `style` element, you always reference classes by putting a `.` in front of their names. You always reference ids by putting a `#` in front of their names.
 
 Try giving your form, which now has the id attribute of cat-photo-form, a green background.
+
+# Let's take a break from the cat photo app for a little while
+    -work on styling html 
