@@ -1,15 +1,12 @@
-body {
-	background-color: #000000;
-	color: green;
-	font-family: monospace;
+.red-text {
+	color: #ff0000;
 }
-.pink-text {
-	color: pink !important;
+.green-text {
+	color: #00ff00;
 }
-.blue-text {
-	color: blue;
+.dodger-blue-text {
+	color: #1e90ff;
 }
-
-#orange-text {
-	color: orange;
+.orange-text {
+	color: #ffa500;
 }
