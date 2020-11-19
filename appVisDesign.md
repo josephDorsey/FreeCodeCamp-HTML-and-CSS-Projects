@@ -46,3 +46,8 @@ Wrap the u tag only around the text "Ph.D. students".
 
 Note: Try to avoid using the u tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
 
+# Applied Visual Design: Use the em Tag to Italicize Text
+To emphasize text, you can use the em tag. This displays text as italicized, as the browser applies the CSS of font-style: italic; to the element.
+
+Wrap an em tag around the contents of the paragraph tag to give it emphasis.
+
