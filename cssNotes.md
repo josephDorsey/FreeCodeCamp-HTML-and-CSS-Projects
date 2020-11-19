@@ -485,3 +485,19 @@ Follow the instructions below to see how changing just three values can change t
 
 In the penguin class, change the black value to gray, the gray value to white, and the yellow value to orange.
     -ez
+
+# Basic CSS: Create a custom CSS Variable
+To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
+
+--penguin-skin: gray;
+This will create a variable named --penguin-skin and assign it the value of gray. Now you can use that variable elsewhere in your CSS to change the value of other elements to gray.
+
+In the penguin class, create a variable name --penguin-skin and give it a value of gray.
+
+# Basic CSS: Use a custom CSS Variable
+After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+
+background: var(--penguin-skin);
+This will change the background of whatever element you are targeting to gray because that is the value of the --penguin-skin variable. Note that styles will not be applied unless the variable names are an exact match.
+
+Apply the --penguin-skin variable to the background property of the penguin-top, penguin-bottom, right-hand and left-hand classes.
