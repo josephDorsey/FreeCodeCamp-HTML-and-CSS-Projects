@@ -532,4 +532,10 @@ To make use of inheritance, CSS variables are often defined in the :root element
 
 Define a variable named --penguin-belly in the :root selector and give it the value of pink. You can then see that the variable is inherited and that all the child elements which use it get pink backgrounds.
 
+# Basic CSS: Change a variable for a specific area
 
+When you create your variables in :root they will set the value of that variable for the whole page.
+
+You can then over-write these variables by setting them again within a specific element.
+
+Change the value of --penguin-belly to white in the penguin class.
