@@ -51,3 +51,7 @@ To emphasize text, you can use the em tag. This displays text as italicized, as 
 
 Wrap an em tag around the contents of the paragraph tag to give it emphasis.
 
+# Applied Visual Design: Use the s Tag to Strikethrough Text
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the s tag. It shows that a section of text is no longer valid. With the s tag, the browser applies the CSS of text-decoration: line-through; to the element.
+
+Wrap the s tag around "Google" inside the h4 tag and then add the word "Alphabet" beside it, which should not have the strikethrough formatting.
