@@ -22,4 +22,13 @@ img {
 }
 Add a width property to the entire card and set it to an absolute value of 245px. Use the fullCard class to select the element.
 
+# Applied Visual Design: Adjust the Height of an Element Using the height Property
 
+You can specify the height of an element using the height property in CSS, similar to the width property. Here's an example that changes the height of an image to 20px:
+
+img {
+  height: 20px;
+}
+Add a height property to the h4 tag and set it to 25px.
+
+Note: You may need to be at 100% zoom to pass the test on this challenge.
