@@ -55,3 +55,10 @@ Wrap an em tag around the contents of the paragraph tag to give it emphasis.
 To strikethrough text, which is when a horizontal line cuts across the characters, you can use the s tag. It shows that a section of text is no longer valid. With the s tag, the browser applies the CSS of text-decoration: line-through; to the element.
 
 Wrap the s tag around "Google" inside the h4 tag and then add the word "Alphabet" beside it, which should not have the strikethrough formatting.
+
+# Applied Visual Design: Create a Horizontal Line Using the hr Element
+You can use the hr tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
+
+Add an hr tag underneath the h4 which contains the card title.
+
+Note: In HTML, hr is a self-closing tag, and therefore doesn't need a separate closing tag.
