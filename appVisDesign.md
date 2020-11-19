@@ -84,3 +84,21 @@ The font size of header tags (h1 through h6) should generally be larger than the
 
 To make the heading significantly larger than the paragraph, change the font-size of the h4 tag to 27 pixels.
 
+# Applied Visual Design: Add a box-shadow to a Card-like Element
+The box-shadow property applies one or more shadows to an element.
+
+The box-shadow property takes values for
+
+offset-x (how far to push the shadow horizontally from the element),
+offset-y (how far to push the shadow vertically from the element),
+blur-radius,
+spread-radius and
+color, in that order.
+The blur-radius and spread-radius values are optional.
+
+Multiple box-shadows can be created by using commas to separate properties of each box-shadow element.
+
+Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:
+
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+The element now has an id of thumbnail. With this selector, use the example CSS values above to place a box-shadow on the card.
