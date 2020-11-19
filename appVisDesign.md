@@ -37,3 +37,12 @@ Note: You may need to be at 100% zoom to pass the test on this challenge.
 To make text bold, you can use the strong tag. This is often used to draw attention to text and symbolize that it is important. With the strong tag, the browser applies the CSS of font-weight: bold; to the element.
 
 Wrap a strong tag around "Stanford University" inside the p tag (do not include the period).
+
+# Applied Visual Design: Use the u Tag to Underline Text
+
+To underline text, you can use the u tag. This is often used to signify that a section of text is important, or something to remember. With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
+
+Wrap the u tag only around the text "Ph.D. students".
+
+Note: Try to avoid using the u tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
+
