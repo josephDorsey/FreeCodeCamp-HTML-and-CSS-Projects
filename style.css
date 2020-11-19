@@ -7,6 +7,12 @@
 body {
 	background: var(--penguin-belly, #c6faf1);
 }
+@media (max-width: 350px) {
+	:root {
+		--penguin-size: 200px;
+		--penguin-skin: black;
+	}
+}
 
 .penguin {
 	--penguin-belly: white;
