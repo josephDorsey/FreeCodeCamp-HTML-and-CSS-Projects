@@ -13,6 +13,7 @@ p {
 .links {
 	text-align: left;
 	color: black;
+	opacity: 0.7;
 }
 .fullCard {
 	border: 1px solid #ccc;

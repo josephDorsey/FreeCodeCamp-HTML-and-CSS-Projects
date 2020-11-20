@@ -102,3 +102,13 @@ Here's an example of the CSS to create multiple shadows with some blur, at mostl
 
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 The element now has an id of thumbnail. With this selector, use the example CSS values above to place a box-shadow on the card.
+
+# Applied Visual Design: Decrease the Opacity of an Element
+The opacity property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
+
+A value of 1 is opaque, which isn't transparent at all.
+A value of 0.5 is half see-through.
+A value of 0 is completely transparent.
+The value given will apply to the entire element, whether that's an image with some transparency, or the foreground and background colors for a block of text.
+
+Set the opacity of the anchor tags to 0.7 using links class to select them.
