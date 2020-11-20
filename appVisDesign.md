@@ -151,3 +151,9 @@ Set the font-weight of the h3 tag to 500.
 Set the font-weight of the h4 tag to 400.
 Set the font-weight of the h5 tag to 300.
 Set the font-weight of the h6 tag to 200.
+
+# Applied Visual Design: Set the font-size of Paragraph Text
+The font-size property in CSS is not limited to headings, it can be applied to any element containing text.
+
+Change the value of the font-size property for the paragraph to 16px to make it more visible.
+
