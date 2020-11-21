@@ -1,5 +1,8 @@
-h2 {
+#searchbar {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+section {
 	position: relative;
-	bottom: 10px;
-	left: 15px;
 }
