@@ -1,7 +1,4 @@
-a:hover {
-	color: blue;
-}
-
-a {
-	color: black;
+h2 {
+	position: relative;
+	top: 15px;
 }
