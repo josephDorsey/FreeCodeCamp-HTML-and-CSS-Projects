@@ -1,14 +1,21 @@
 body {
 	background-color: #ffffff;
 }
-.blue {
-	background-color: #0000ff;
+
+.orange {
+	background-color: #ff7f00;
 }
-.yellow {
-	background-color: #ffff00;
+
+.cyan {
+	background-color: #00ffff;
 }
+
+.raspberry {
+	background-color: #ff007f;
+}
+
 div {
-	display: inline-block;
 	height: 100px;
 	width: 100px;
+	margin-bottom: 5px;
 }
