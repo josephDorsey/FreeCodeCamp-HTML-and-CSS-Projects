@@ -290,3 +290,15 @@ The hsl() option in CSS also makes it easy to adjust the tone of a color. Mixing
 
 All elements have a default background-color of transparent. Our nav element currently appears to have a cyan background, because the element behind it has a background-color set to cyan. Add a background-color to the nav element so it uses the same cyan hue, but has 80% saturation and 25% lightness values to change its tone and shade.
 
+# Applied Visual Design: Create a Gradual CSS Linear Gradient
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the background property's linear-gradient() function. Here is the general syntax:
+
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+
+The first argument specifies the direction from which color transition starts - it can be stated as a degree, where 90deg makes a horizontal gradient (from left to right) and 45deg makes a diagonal gradient (from bottom left to top right). The following arguments specify the order of colors used in the gradient.
+
+Example:
+
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+Use a linear-gradient() for the div element's background, and set it from a direction of 35 degrees to change the color from #CCFFFF to #FFCCCC.
