@@ -1,21 +1,19 @@
 body {
-	background-color: #ffffff;
+	background-color: white;
 }
-
-.orange {
+header {
+	background-color: #09a7a1;
+	color: white;
+	padding: 0.25em;
+}
+h2 {
+	color: #09a7a1;
+}
+button {
 	background-color: #ff7f00;
 }
-
-.cyan {
-	background-color: #00ffff;
-}
-
-.raspberry {
-	background-color: #ff007f;
-}
-
-div {
-	height: 100px;
-	width: 100px;
-	margin-bottom: 5px;
+footer {
+	background-color: #09a7a1;
+	color: white;
+	padding: 0.5em;
 }
