@@ -322,3 +322,13 @@ Make stripes by changing the repeating-linear-gradient() to use a gradient angle
 One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The background property supports the url() function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 Using the url of https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png, set the background of the whole page with the body selector.
+
+# Applied Visual Design: Use the CSS Transform scale Property to Change the Size of an Element
+To change the scale of an element, CSS has the transform property, along with its scale() function. The following code example doubles the size of all the paragraph elements on the page:
+
+p {
+  transform: scale(2);
+}
+Increase the size of the element with the id of ball2 to 1.5 times its original size.
+
+The transform property for #ball2 should be set to scale it to 1.5 times its size.
