@@ -1,15 +1,9 @@
-.ball {
-	width: 40px;
-	height: 40px;
-	margin: 50 auto;
-	position: fixed;
-	background: linear-gradient(35deg, #ccffff, #ffcccc);
-	border-radius: 50%;
+div {
+	width: 70%;
+	height: 100px;
+	margin: 50px auto;
+	background: linear-gradient(53deg, #ccfffc, #ffcccf);
 }
-#ball1 {
-	left: 20%;
-}
-#ball2 {
-	transform: scale(1.5);
-	left: 65%;
+div:hover {
+	transform: scale(1.1);
 }

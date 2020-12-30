@@ -332,3 +332,17 @@ p {
 Increase the size of the element with the id of ball2 to 1.5 times its original size.
 
 The transform property for #ball2 should be set to scale it to 1.5 times its size.
+
+# Applied Visual Design: Use the CSS Transform scale Property to Scale an Element on Hover
+The transform property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as :hover that specify a certain state of an element, the transform property can easily add interactivity to your elements.
+
+Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:
+
+p:hover {
+  transform: scale(2.1);
+}
+Note: Applying a transform to a div element will also affect any child elements contained in the div.
+
+Add a CSS rule for the hover state of the div and use the transform property to scale the div element to 1.1 times its original size when a user hovers over it.
+
+The size of the div element should scale 1.1 times when the user hovers over it.
